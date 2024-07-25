@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Zhong - Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #222;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .content {
+            padding: 40px 0;
+        }
+        .shop-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Robert Zhong</h1>
+            <p>EMT | Auto Tech | Data Scientist</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to My World</h1>
+    </div>
+
+    <div class="container">
+        <section id="home" class="content">
+            <h2>About Me</h2>
+            <p>Hello, I'm Bob, nearing the completion of my B.S. in Data Science at the School of Theoretical and Applied Science in New Jersey. I'm eager to blend my academic insights with my diverse work experiences post-graduation in June 2023.
+
+                I've had the privilege of working in various roles that honed my adaptability and decision-making skills. At the First Aid Squad, I demonstrated a strong commitment to teamwork and quick decision-making, often in high-pressure situations. Similarly, at a post-acute rehab and nursing center, I excelled in customer service, ensuring the dietary needs of patients were met with precision and care.
+                
+                My tenure at UPS as a package handler and as a Produce Clerk at Shoprite taught me the importance of efficiency and organization, skills I plan to carry into my future data science career. Furthermore, my time with the Marine Corps Reserves cultivated my leadership skills, where I managed teams and developed strategies to ensure safety and security.</p>
+            <p>One of my proudest moments transpired during my time as a Package Handler at UPS. It was a particularly busy period, and at the end of my evening shift, my supervisor was in a tight spot needing assistance for the overnight shift. Without hesitation, I volunteered to work the double shift, fully aware that it would be physically demanding and I would be extremely tired.
+
+                Though it was indeed a grueling experience, my determination and commitment to the team propelled me through the night. I prioritized the needs of the company and my colleagues over my own comfort, showcasing a high level of dedication and resilience.
+                
+                This experience was not only a test of my physical endurance but also a testament to my work ethic and willingness to go the extra mile to ensure the smooth operation of the business. My efforts did not go unnoticed, as I was awarded a $30 gift card as a token of appreciation for my hard work and dedication.
+                
+                Looking back, I feel a deep sense of pride in my ability to step up in challenging situations, putting the team's needs above my own. It reaffirmed my belief in the value of hard work and teamwork, principles that I carry with me in my professional journey.</p>
+            <p>With a keen aptitude for automotive maintenance, I have regularly performed various essential tasks to ensure the optimal performance of my personal vehicles. My routine maintenance regimen includes performing oil changes and replacing fluids for the transmission, coolant, and power steering systems. I have also replaced critical components such as spark plugs, air filters, and serpentine belts to guarantee proper engine functioning. Moreover, I meticulously cleaned and maintained the EGR valve and throttle body to enhance fuel efficiency. In addressing issues related to steering smoothness, I successfully replaced power steering hose O-rings. To ensure safe braking performance, I conducted thorough brake fluid replacements. Additionally, I repaired the air intake hose to prevent air leaks and maintain consistent engine performance. These activities reflect my commitment to vehicle upkeep and my proficiency in executing automotive repairs.</p>
+        </section>
+
+        <section id="shop" class="content">
+            <h2>Robert's Shop</h2>
+            <input type="text" placeholder="Search products...">
+            <select>
+                <option>Filter by category</option>
+                <option>EMT Gear</option>
+                <option>Auto Tech Tools</option>
+                <option>Data Science Gadgets</option>
+            </select>
+            <div class="shop-section">
+                <div class="product">
+                    <img src="/api/placeholder/150/150" alt="Quantum Wrench">
+                    <h3>Quantum Wrench</h3>
+                    <p>Fixes cars across multiple dimensions!</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/api/placeholder/150/150" alt="AI Bandage">
+                    <h3>AI Bandage</h3>
+                    <p>Learns your wound patterns for optimal healing!</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="/api/placeholder/150/150" alt="Data Potion">
+                    <h3>Data Potion</h3>
+                    <p>Drink to instantly understand complex algorithms!</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content">
+            <h2>Contact Me</h2>
+            <p>Phone: <a href="tel:973-521-1474">973-521-1474</a></p>
+            <p>Email: <a href="mailto:Rzhong01@hotmail.com">Rzhong01@hotmail.com</a></p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <script>
+        // Placeholder for audio playback functionality
+        console.log("Audio would play here in a real implementation");
+
+        // Placeholder for contact confirmation
+        document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (confirm("Do you want to proceed with this action?")) {
+                    window.location.href = link.href;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
